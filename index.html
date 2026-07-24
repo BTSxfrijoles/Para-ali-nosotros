@@ -3,17 +3,141 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi página web</title>
+    <title>Para Ali Nosotros</title>
     <link rel="stylesheet" href="estilos.css" />
   </head>
   <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">Para Ali Nosotros</a>
+        <nav class="main-nav">
+          <a href="#nosotros">Nosotros</a>
+          <a href="#galeria">Galería</a>
+          <a href="#plan">Plan</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
     <main>
-      <h1>Mi página web</h1>
-      <p>Esta es una demostración para mostrar la imagen en la web.</p>
-      <figure>
-        <img src="foto-novia.jpeg" alt="Foto de mi novia y yo" />
-        <figcaption>Foto de mi novia y yo.</figcaption>
-      </figure>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Bienvenidos</span>
+            <h1>Esta página es nuestro rincón especial</h1>
+            <p>Aquí guardamos recuerdos bonitos, planes juntos y las imágenes que nos hacen sonreír al volver a verlas.</p>
+            <div class="hero-actions">
+              <a class="button" href="#galeria">Ver galería</a>
+              <a class="button button-secondary" href="#contacto">Contáctame</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card">
+              <img src="foto-novia.jpeg" alt="Foto de mi novia y yo" />
+              <div class="hero-label">Nuestra foto favorita</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="nosotros" class="section-white">
+        <div class="container">
+          <div class="section-title">
+            <span>Nosotros</span>
+            <h2>Amor, viajes y momentos que queremos guardar</h2>
+          </div>
+          <p class="intro">Somos dos personas que disfrutan de las pequeñas grandes cosas: un café, una caminata, un viaje improvisado y los detalles que hacen especial cada día.</p>
+          <div class="stats-grid">
+            <article>
+              <strong>5+</strong>
+              <span>Años juntos</span>
+            </article>
+            <article>
+              <strong>12</strong>
+              <span>Viajes compartidos</span>
+            </article>
+            <article>
+              <strong>100+</strong>
+              <span>Recuerdos felices</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="plan" class="section-alt">
+        <div class="container">
+          <div class="section-title">
+            <span>Plan</span>
+            <h2>Qué queremos mostrar en esta página</h2>
+          </div>
+          <div class="cards-grid">
+            <article class="feature-card">
+              <h3>Memorias</h3>
+              <p>Fotos y frases de los mejores días compartidos, para que cada vez que entres vuelvas a sonreír.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Historias</h3>
+              <p>Lugares, fechas y anécdotas que nos hicieron más cercanos y nos cuentan quiénes somos juntos.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Momentos</h3>
+              <p>Detalles especiales, planes pendientes y recuerdos que nos inspiran a seguir creando más.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="galeria" class="gallery section-white">
+        <div class="container">
+          <div class="section-title">
+            <span>Galería</span>
+            <h2>Algunos de nuestros recuerdos favoritos</h2>
+          </div>
+          <div class="gallery-grid">
+            <figure>
+              <img src="foto-novia.jpeg" alt="Foto romántica" />
+              <figcaption>Un día especial juntos</figcaption>
+            </figure>
+            <figure>
+              <img src="image.png" alt="Foto romántica 2" />
+              <figcaption>Con magia y diversión</figcaption>
+            </figure>
+            <figure>
+              <img src="foto-novia.jpeg" alt="Foto romántica 3" />
+              <figcaption>Momentos que guardamos</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial section-alt">
+        <div class="container">
+          <div class="section-title">
+            <span>Testimonio</span>
+            <h2>Esto es lo que sentimos</h2>
+          </div>
+          <div class="testimonial-card">
+            <p>"Cada día contigo se convierte en un recuerdo especial. Esta página es la pequeña casa donde guardamos lo más bonito de nuestra historia."</p>
+            <strong>— Ali &amp; Tú</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section-primary">
+        <div class="container cta-card">
+          <div>
+            <h2>¿Listo para guardar más memorias?</h2>
+            <p>Abre esta página siempre que quieras recordar lo bonito de estar juntos.</p>
+          </div>
+          <a class="button button-secondary" href="https://github.com/BTSxfrijoles/Para-ali-nosotros" target="_blank" rel="noreferrer">Ver repositorio</a>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Para Ali Nosotros · Creado con amor.</p>
+      </div>
+    </footer>
   </body>
 </html>
